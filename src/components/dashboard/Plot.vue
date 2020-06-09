@@ -149,7 +149,6 @@ export default {
       if (minCountry) {
         annotations.push(this.generateAnnotation(minValue, "Min: " + minCountry.country, 0.5, -30, '#00e0ff', 'black'));
       }
-      //
       let q1Index = Math.floor(topicValues_.length * 0.25);
       let q1Value = topicValues_[q1Index];
       let q1Country = topicValues.filter(topic => topic.value == q1Value)[0];
